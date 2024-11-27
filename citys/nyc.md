@@ -5,15 +5,15 @@ header: New York City
 
 
 images:
-- slideimg: /img/slideNYC1.jpg
+- slideimg: img/slideNYC1.jpg
   slidehead: Vibrant
   slidetext: New York City pulses with energy, offering endless opportunities for entertainment, culture, and connection.
 
-- slideimg: /img/slideNYC2.jpg
+- slideimg: img/slideNYC2.jpg
   slidehead: Diverse
   slidetext: The city is a melting pot of cultures, languages, and cuisines, reflecting its global appeal.
 
-- slideimg: /img/slideNYC3.jpg
+- slideimg: img/slideNYC3.jpg
   slidehead: Iconic
   slidetext: Home to landmarks like the Empire State Building and Broadway, NYC is a symbol of dreams and ambition.
 
@@ -27,7 +27,7 @@ text:
   
 - header: Best Time For New York City!
   body: The best time to visit New York is truly any time of year, as each season has its own charm. Early fall brings crisp breezes, sunny skies, and pleasant temperatures, making it ideal for outdoor exploration. Late fall and winter, meanwhile, sparkle with festive highlights like the Macy's Thanksgiving Day Parade and dazzling holiday decorations.
-  img: /img/tempNYC.jpg
+  img: img/tempNYC.jpg
 
 hotell:
   - img:
@@ -46,15 +46,15 @@ hotell:
     link: 
 
 hooh:
-  - img: /img/NYChtl1.jpg
+  - img: img/NYChtl1.jpg
     headdd: Baccarat Hotel New York
     txt: In white daylight, rainbows cascading, a spectrum of swatches cast from a trillion facets. By night, dimmed shimmer and champagne flutes. Gem-red spheres of fresh roses. This is Baccarat.
     linko: https://www.baccarathotels.com/
-  - img: /img/NYChtl2.jpg
+  - img: img/NYChtl2.jpg
     headdd: Mandarin Oriental, New York
     txt: Mandarin Oriental, New York is in an idyllic location next to iconic Central Park, world-class dining, shopping and entertainment.
     linko: https://www.mandarinoriental.com/en/new-york/manhattan
-  - img: /img/NYChtl3.jpg
+  - img: img/NYChtl3.jpg
     headdd:  The Beekman, A Thompson Hotel
     txt: Discover Timeless Luxury And Sophisticated Elegance in Lower Manhattan
     linko: https://www.hyatt.com/thompson-hotels/lgath-the-beekman?src=prop_tripadvisor_businesslisting_lgath_en_website_desktop_tripadvisor
