@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+
+
+html {
+    scrollbar-width:thin;
+    scrollbar-color: yellow rgb(21, 31, 50);
+  }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    line-height: 1.6;
+    /*Här med hjälp av https://uigradients.com/ jag har skapat ett linear background*/
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+header, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 376px) {
+    header, footer {
+        padding: 10px;
+    }
+
+
+}
+
+
+aside{
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+h5{
+    text-align: center;
+}
+
+#citycard{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+h1.title{
+    margin: 0 0 0 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #0039e6;
+    text-shadow: 1px 1px 1px #013220,
+        1px 2px 1px #013220,
+        1px 3px 1px #013220,
+        1px 4px 1px #013220,
+ 
+
+
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    padding-bottom: 50px;
+    
+}
+
+.cityheader{
+
+    font-size: calc(20px + 18vh);
+  line-height: calc(20px + 20vh);
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+
+
+/*Header light effect*/
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+
+  @media screen and (max-width: 376px) {
+
+    .cityheader{
+        font-size: 80px;
+    }
+
+
+
+}
+
+
+
+
+main{
+
+    font-family: Courier, monospace;
+}
+
+
+#contacttxt{
+  margin-bottom: 50px;
+}
+
+main.homeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: space-around;
+    align-items: center;
+    width: auto;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.homeMain{
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: space-around;
+  align-items: center;
+  width: auto;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+
+article {
+    width: 80%;
+    height: auto;
+    margin:10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 376px) {
+
+    p {
+        font-size: 17px;
+    }
+
+
+
+}
+
+.textinarticle{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Courier, monospace;
+    border-radius: 10px;
+    line-height: 200%;
+
+    padding: 50px;
+
+    color: white;
+}
+
+
+#hotelslideshowimg{
+    width: auto;
+    height: 1000px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 376px) {
+
+
+    #hotelslideshowimg{
+        width: auto;
+        height: 300px;
+    }
+
+    .hotelslideshowtext{
+        font-size: 11px;
+    }
+
+
+
+}
+
+
+img.homeImg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+}
+
+
+
+
+#timos{
+     
+    object-fit: cover; 
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px black;
+    background-color: #0039e6;
+}
+
+fieldset {
+    border: 2px solid black;  /* Ensures black border is visible */
+    border-radius: 5px;
+    padding: 15x;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+label {
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 5px;
+    display: block; /* Ensures it occupies the full width */
+    text-align: center; /* Centers the label text */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+@media (max-width: 376px) {
+    #tlContact{
+        font-size: 20px;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 10px);
+    }
+}
+
+
+
+
+/* From Uiverse.io by Gaurav-WebDev */ 
+/*Button for my main buttons*/
+.button {
+    background-color: yellow;
+    font-family: Courier, monospace;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .type1::after {
+    content: "Click!";
+    height: 50px;
+    width: 150px;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1::before {
+    content: "See More!";
+    height: 50px;
+    width: 150px;
+    background: #EDE574;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E1F5C4, #ffff1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #E1F5C4, #ffff1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #000000;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
+
+
+
+
+
+  /*Button to scroll up*/
+/* From Uiverse.io by vinodjangid07 */ 
+.scrollbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .scrollbtn:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(181, 160, 255);
+    align-items: center;
+  }
+  
+  .scrollbtn:hover .svgIcon {
+    /* width: 20px; */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+  
+  .scrollbtn::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back to Top";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+  }
+  
+  .scrollbtn:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+  }
+  
+
+
+
+
+
+
+
+/*Button for my slideshows*/
+.slidebtn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    color: white;
+    background-color: brown;
+   }
+   
+   .slidebtn::before,
+   .slidebtn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .slidebtn::before {
+    left: -10px;
+    background: yellow;
+   }
+   
+   .slidebtn::after {
+    right: -10px;
+    background: blue;
+   }
+   
+   .slidebtn:hover::before,
+   .slidebtn:hover::after {
+    width: 58%;
+   }
+
+
+
+
+   /*"WhereAreWe text effect"*/
+   section.homeMain{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+   
+  }
+
+   
+   section span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 0 1px 0 black,
+                 0 2px 0 black,
+                 0 3px 0 black,
+                 0 4px 0 black,
+                 0 5px 0 black,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  section span:nth-child(1) {color: red;}
+  section span:nth-child(2) { animation-delay: .1s; color: red; }
+  section span:nth-child(3) { animation-delay: .2s; color:red;}
+  section span:nth-child(4) { animation-delay: .3s; color: red;}
+  section span:nth-child(5) { animation-delay: .4s; color: red;}
+  section span:nth-child(6) { animation-delay: .5s; color: #0039e6;}
+  section span:nth-child(7) { animation-delay: .6s; color: #0039e6;}
+  section span:nth-child(8) { animation-delay: .7s; color: #0039e6;}
+  section span:nth-child(9) { animation-delay: .8s; color: black;}
+  section span:nth-child(10) { animation-delay: .9s; color: black;}
+  section span:nth-child(11) { animation-delay: 1.0s; color: black;}
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 white,
+                   0 2px 0 white,
+                   0 3px 0 white,
+                   0 4px 0 white,
+                   0 5px 0 white,
+                   0 6px 0 white,
+                   0 7px 0 white,
+                   0 8px 0 white,
+                   0 9px 0 white,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+
+
+    section span {
+      font-size: 50px;
+    }
+}
+
+
+  /* 
+  cool shadow btn
+  <a href="/" class="bn3637 bn38">Hover</a>
+
+  
+  .bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+  }
+  .bn38 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+    
+  .bn38:hover {
+    background-color: #60605e;
+  }
+
+*/
