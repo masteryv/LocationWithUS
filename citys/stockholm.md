@@ -5,13 +5,13 @@ header: Stockholm
 
 
 images:
-- slideimg: img/slideStockholm1.jpg
+- slideimg: /LocationWithUS/img/slideStockholm1.jpg
   slidehead: Innovative
   slidetext: A leader in sustainability and design, Stockholm showcases cutting-edge urban living.
-- slideimg: img/slideStockholm2.jpg
+- slideimg: /LocationWithUS/img/slideStockholm2.jpg
   slidehead: Scenic
   slidetext: Stockholm's breathtaking waterfront views and lush parks make it one of Europe’s most picturesque capitals.
-- slideimg: img/slideStockholm3.jpg
+- slideimg: /LocationWithUS/img/slideStockholm3.jpg
   slidehead: Historic
   slidetext: With landmarks like the Royal Palace and centuries-old streets of Gamla Stan, the city embraces its rich past.
 
@@ -25,7 +25,7 @@ text:
   
 - header: Best Time For Stockholm!
   body: The best time to visit Stockholm is throughout the year, as each season offers unique experiences. Summer brings long days, vibrant festivals, and perfect weather for exploring the city's parks and waterways. Autumn enchants with colorful foliage and cozy cafes, while winter is magical with Christmas markets and snowy landscapes. Spring awakens Stockholm with blooming flowers and warming temperatures, creating an ideal balance for outdoor and indoor activities.
-  img: img/tempStockholm.jpg
+  img: /LocationWithUS/img/tempStockholm.jpg
 
 hotell:
   - img:
@@ -44,15 +44,15 @@ hotell:
     link: 
 
 hooh:
-  - img: img/stockholmhtl1.jpg
+  - img: /LocationWithUS/img/stockholmhtl1.jpg
     headdd: Grand Hôtel Stockholm
     txt: The Grand Hôtel in Stockholm has been home to celebrities, high-profile events and everyday bon-vivants since 1874. Situated in the best waterfront location imaginable, the hotel overlooks the Royal Palace and Gamla Stan, Stockholm’s old town.
     linko: https://grandhotel.se/en
-  - img: img/stockholmhtl2.jpg
+  - img: /LocationWithUS/img/stockholmhtl2.jpg
     headdd: Hotel Diplomat Stockholm
     txt: Hotel Diplomat is a stylish and elegant hotel in the heart of Stockholm. Here – on the prestigious Strandvägen – our guests are perfectly positioned to explore the green scenery of Djurgården, the high-end shopping experiences surrounding Norrmalmstorg, and the vibrant restaurant scene at Stureplan.
     linko: https://www.diplomathotel.com/en/
-  - img: img/stockholmhtl3.jpg
+  - img: /LocationWithUS/img/stockholmhtl3.jpg
     headdd: Bank Hotel, a Member of Small Luxury Hotels
     txt: A landmark building in one of Stockholm's most prestigious locations, just footsteps from the waterfront and the finest shopping, nightlife and culture that Stockholm has to offer. 
     linko: https://bankhotel.se/

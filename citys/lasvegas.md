@@ -5,14 +5,14 @@ header: Las Vegas
 
 
 images:
-- slideimg: img/slideLasVegas1.jpg
+- slideimg: /LocationWithUS/img/slideLasVegas1.jpg
   slidehead: Glamorous
   slidetext: From its luxurious resorts to world-class dining, Las Vegas dazzles with elegance and opulence.
 
-- slideimg: img/slideLasVegas2.jpg
+- slideimg: /LocationWithUS/img/slideLasVegas2.jpg
   slidehead: Lively
   slidetext: Las Vegas buzzes with energy, offering non-stop entertainment, casinos, and events day and night.
-- slideimg: img/slideLasVegas3.jpg
+- slideimg: /LocationWithUS/img/slideLasVegas3.jpg
   slidehead: Spectacular
   slidetext: Known for its elaborate shows and stunning light displays, Vegas promises unforgettable spectacles.
 
@@ -26,7 +26,7 @@ text:
   
 - header: Best Time For Las Vegas!
   body: The best time to visit Las Vegas is during the spring (March to May) and fall (September to November). These shoulder seasons provide comfortable weather for exploring the city, along with a balance of pleasant conditions and great travel deals year-round.
-  img: img/tempLasVegas.jpg
+  img: /LocationWithUS/img/tempLasVegas.jpg
 
 hotell:
   - img:
@@ -45,15 +45,15 @@ hotell:
     link: 
 
 hooh:
-  - img: img/lasvegashtl1.jpg
+  - img: /LocationWithUS/img/lasvegashtl1.jpg
     headdd: ARIA Resort & Casino
     txt: From our renowned restaurants to the most technologically advanced rooms and suites, at ARIA, an unsurpassed luxury experience awaits you.
     linko: https://aria.mgmresorts.com/en.html
-  - img: img/lasvegashtl2.jpg
+  - img: /LocationWithUS/img/lasvegashtl2.jpg
     headdd: The Venetian Resort Las Vegas
     txt: Enter a world made in the image of Italian-inspired grandeur, where possibility waits around every corner. You're invited to explore dynamic experiences in opulent surroundings, from lavish suites and electrifying casinos to world-class dining and entertainment. Here's to la bella vita.
     linko: https://www.venetianlasvegas.com/
-  - img: img/lasvegashtl3.jpg
+  - img: /LocationWithUS/img/lasvegashtl3.jpg
     headdd: SKYLOFTS at MGM Grand
     txt: Imagine the most beautiful surroundings, personalized service, and decadent experiences… all together under one roof. From sweeping views of the city through floor-to-ceiling windows, to a 24 hour Personal Butler, a stay at SKYLOFTS is an experience above all others.
     linko: https://mgmgrand.mgmresorts.com/en/hotel/skylofts-mgm-grand.html

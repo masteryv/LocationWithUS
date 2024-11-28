@@ -5,15 +5,15 @@ header: Dubai
 
 
 images:
-- slideimg: img/slideDubai1.jpg
+- slideimg: /LocationWithUS/img/slideDubai1.jpg
   slidehead: Luxurious
   slidetext: Dubai epitomizes luxury with its opulent hotels, world-class shopping malls, and fine dining experiences.
 
-- slideimg: img/slideDubai2.jpg
+- slideimg: /LocationWithUS/img/slideDubai2.jpg
   slidehead: Innovative
   slidetext: The city showcases groundbreaking developments like the Burj Khalifa and cutting-edge smart city technologies.
 
-- slideimg: img/slideDubai3.jpg
+- slideimg: /LocationWithUS/img/slideDubai3.jpg
   slidehead: Cultural
   slidetext: Despite its modern facade, Dubai preserves its heritage through traditional souks, festivals, and Emirati hospitality.
 
@@ -25,7 +25,7 @@ text:
   
 - header: Best Time For Dubai!
   body: The ideal time to visit Dubai is between November and March, when the city enjoys pleasant winter weather with clear blue skies and perfect conditions for the beach. Dubai's climate typically alternates between hot and hotter, making the winter months particularly appealing. However, this period also marks peak tourist season, so expect bustling crowds, especially on Jumeirah’s popular beaches.
-  img: img/tempDubai.jpg
+  img: /LocationWithUS/img/tempDubai.jpg
 
 hotell:
   - img:
@@ -44,15 +44,15 @@ hotell:
     link: 
 
 hooh:
-  - img: img/dubaihtl1.jpg
+  - img: /LocationWithUS/img/dubaihtl1.jpg
     headdd: Jumeirah Dar Al Masyaf
     txt: Nestled within lush gardens and meandering waterways, our intimate collection of Arabian houses invite you to embrace a different pace of life. Here, you can be close to it all, yet in a haven of your own.
     linko: https://www.jumeirah.com/en/stay/dubai/jumeirah-dar-al-masyaf?utm_source=tripadvisor&utm_medium=meta-search:listing&utm_campaign=DAM-link&utm_content=website-link
-  - img: img/dubaihtl2.jpg
+  - img: /LocationWithUS/img/dubaihtl2.jpg
     headdd: Vintage Grand Hotel
     txt: Welcome to Vintage Grand Hotel, where opulence meets unparalleled service in Dubai Production City. At Vintage Grand Hotel, we invite you to elevate your travel experience and create lasting memories in an atmosphere of unparalleled luxury.
     linko: https://www.vintagegrandhotel.com/
-  - img: img/dubaihtl3.jpg
+  - img: /LocationWithUS/img/dubaihtl3.jpg
     headdd: Raffles Dubai
     txt: Discover the most spacious rooms in the city, sumptuously decorated and blessed with a uniquely Raffles sensibility. 
     linko: https://www.raffles.com/dubai/

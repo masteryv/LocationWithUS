@@ -5,15 +5,15 @@ header: Venice
 
 
 images:
-- slideimg: img/slideVenice1.jpg
+- slideimg: /LocationWithUS/img/slideVenice1.jpg
   slidehead: Romantic
   slidetext: Venice’s gondola rides, stunning sunsets, and charming canals make it a haven for lovers.
 
-- slideimg: img/slideVenice2.jpg
+- slideimg: i/LocationWithUS/img/slideVenice2.jpg
   slidehead: Historic
   slidetext: With landmarks like Doge’s Palace and centuries-old art, Venice boasts a rich cultural heritage.
 
-- slideimg: img/slideVenice3.jpg
+- slideimg: /LocationWithUS/img/slideVenice3.jpg
   slidehead: Unique
   slidetext: Built on water, its car-free streets and aquatic lifestyle are unlike any other city in the world.
 
@@ -25,7 +25,7 @@ text:
   
 - header: Best Time For Venice!
   body: The best time to visit Venice is during spring and autumn, when the weather is mild, and the crowds are smaller. Spring brings blooming flowers and vibrant colors, while autumn offers cooler temperatures and a relaxed atmosphere. Summer is perfect for festivals like the Venice Film Festival but can be crowded. Winter, though quieter, charms with its misty canals and the magical Venice Carnival in February. Venice is captivating in every season.
-  img: img/tempVenice.jpg
+  img: /LocationWithUS/img/tempVenice.jpg
 
 hotell:
   - img:
@@ -44,15 +44,15 @@ hotell:
     link: 
 
 hooh:
-  - img: img/venicehtl1.jpg
+  - img: /LocationWithUS/img/venicehtl1.jpg
     headdd: The Gritti Palace, a Luxury Collection Hotel, Venice
     txt: Welcome to The Gritti Palace, a Luxury Collection Hotel, Venice. Experience the Grand Canal from our luxury hotel in Venice
     linko: https://www.marriott.com/en-us/hotels/vcegl-the-gritti-palace-a-luxury-collection-hotel-venice/overview/
-  - img: img/venicehtl2.jpg
+  - img: /LocationWithUS/img/venicehtl2.jpg
     headdd: JW Marriott Venice Resort & Spa
     txt: Enchantment awaits at JW Marriott Venice Resort and Spa. Beautifully situated on the private island of Isola delle Rose in Venice, Italy, our luxury family hotel offers a lush retreat, the perfect respite from the excitement of the city. 
     linko: https://www.marriott.com/en-us/hotels/vcejw-jw-marriott-venice-resort-and-spa/overview/
-  - img: img/venicehtl3.jpg
+  - img: /LocationWithUS/img/venicehtl3.jpg
     headdd: Aman Venice
     txt: Set in Palazzo Papadopoli, one of the city’s eight monumental palazzos on the Grand Canal, Aman Venice embodies all that is sumptuous and sensuous about La Serenissima.
     linko: https://www.aman.com/hotels/aman-venice

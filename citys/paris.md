@@ -6,15 +6,15 @@ header: Paris
 
 
 images:
-- slideimg: img/slideParis1.jpg
+- slideimg: /LocationWithUS/img/slideParis1.jpg
   slidehead: Romantic
   slidetext: Eiffel Tower's glow, strolls along Seine, charming cafés, love locks, intimate gardens.
 
-- slideimg: img/slideParis2.jpg
+- slideimg: /LocationWithUS/img/slideParis2.jpg
   slidehead: Historic
   slidetext: Rich heritage, Notre-Dame, grand monuments, cobblestone streets, Haussmann architecture, Revolution echoes.
 
-- slideimg: img/slideParis3.jpg
+- slideimg: /LocationWithUS/img/slideParis3.jpg
   slidehead: Artistic
   slidetext: Louvre's masterpieces, street artists, bohemian Montmartre, fashion shows, creative energy, modern galleries.
 
@@ -28,34 +28,34 @@ text:
   
 - header: Best Time For Paris!
   body: The ideal time to visit Paris is between June to August and September to October. Both summer and fall offer unique advantages and drawbacks. From June to August, the weather is nearly perfect, with average highs in the upper 70s and plenty of sunshine. However, summer is also the busiest and most expensive season.
-  img: img/tempParis.jpg
+  img: /LocationWithUS/img/tempParis.jpg
 
 hotell:
-  - img: img/parishtl1.jpg
+  - img: /LocationWithUS/img/parishtl1.jpg
     hotellh: Le Bristol Paris
     hotellt: "Le Bristol Paris is an icon of French elegance and art de vivre boasting 190 completely renovated rooms and suites in the heart of Paris. An exceptional setting best known for its outstanding dining tradition, the lush, 13,000 square foot courtyard garden, or the iconic rooftop swimming pool."
     link: https://www.oetkercollection.com/hotels/le-bristol-paris/?utm_source=TripAdvisor_Avantage_Business&utm_medium=third_party&utm_campaign=hotel-website
 
-  - img: img/parishtl2.jpg
+  - img: /LocationWithUS/img/parishtl2.jpg
     hotellh: Grand Hotel Du Palais Royal
     hotellt: "Thanks to its prime location, at once historic and cultural, the Grand Hôtel du Palais Royal can boast a number of unique advantages right in the heart of Paris. Only a stone’s throw from the Palais Royal and its romantic formal gardens, next door to the Louvre and the Tuileries Gardens, it is nothing less than a haven of peace in a bustling capital city."
     link: https://www.grandhoteldupalaisroyal.com/en/
 
-  - img: img/parishtl3.jpg
+  - img: /LocationWithUS/img/parishtl3.jpg
     hotellh: Ritz Paris
     hotellt: "Elegance, charm, that legendary scent... each of our rooms is a destination in its own right, with that extra touch of soul that creates the Ritz Paris magic. Our Prestige Suites bring the hotel's historic beauty to life, paying tribute to the personalities who helped shape the myth of 15 Place Vendôme."
     link: https://www.ritzparis.com/
 
 hooh:
-  - img: img/parishtl3.jpg
+  - img: /LocationWithUS/img/parishtl3.jpg
     headdd: Ritz Paris
     txt: "Elegance, charm, that legendary scent... each of our rooms is a destination in its own right, with that extra touch of soul that creates the Ritz Paris magic. Our Prestige Suites bring the hotel's historic beauty to life, paying tribute to the personalities who helped shape the myth of 15 Place Vendôme."
     linko: https://www.ritzparis.com/
-  - img: img/parishtl2.jpg
+  - img: /LocationWithUS/img/parishtl2.jpg
     headdd: Grand Hotel Du Palais Royal
     txt: "Thanks to its prime location, at once historic and cultural, the Grand Hôtel du Palais Royal can boast a  number of unique advantages right in the heart of Paris."
     linko: https://www.grandhoteldupalaisroyal.com/en/
-  - img: img/parishtl1.jpg
+  - img: /LocationWithUS/img/parishtl1.jpg
     headdd:  Le Bristol Paris
     txt: "Le Bristol Paris is an icon of French elegance and art de vivre boasting 190 completely renovated rooms and suites in the heart of Paris. An exceptional setting best known for its outstanding dining tradition, the lush, 13,000 square foot courtyard garden, or the iconic rooftop swimming pool."
     linko: https://www.oetkercollection.com/hotels/le-bristol-paris/?utm_source=TripAdvisor_Avantage_Business&utm_medium=third_party&utm_campaign=hotel-website
