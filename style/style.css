@@ -95,6 +95,16 @@ h1.title{
   -webkit-animation: blink 12s infinite;
 }
 
+@media screen and (max-width: 376px) {
+
+  .cityheader{
+    font-size: 55px;
+  }
+
+
+
+}
+
 
 
 /*Header light effect*/
@@ -207,6 +217,7 @@ article {
 
     p {
         font-size: 17px;
+        text-align: left;
     }
 
 
@@ -542,9 +553,11 @@ input[type="reset"]:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-
-   
   }
+
+
+
+
 
    
    section span {
@@ -598,7 +611,7 @@ input[type="reset"]:hover {
 
 
     section span {
-      font-size: 50px;
+      font-size: 40px;
     }
 }
 
