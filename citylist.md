@@ -54,7 +54,7 @@ city:
 
 - header: Venice!
   body: Venice, the enchanting city in northeastern Italy, is built on over 100 small islands connected by canals and bridges. Renowned for its unique architecture and romantic charm, Venice is a UNESCO World Heritage site. 
-  link: citys/Venice.html
+  link: citys/venice.html
   img: img/slideVenice1.jpg
 
 
