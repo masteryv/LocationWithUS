@@ -100,6 +100,9 @@ h1.title{
   .cityheader{
     font-size: 55px;
   }
+  .title{
+    text-shadow: none;
+  }
 
 
 
@@ -233,6 +236,8 @@ article {
     border-radius: 10px;
     line-height: 200%;
 
+    text-align: left;
+
     padding: 50px;
 
     color: white;
@@ -241,22 +246,35 @@ article {
 
 #hotelslideshowimg{
     width: auto;
-    height: 1000px;
+    height: 600px;
+    object-fit: cover;
     padding-bottom: 20px;
+}
+
+
+.slideimgcorp{
+  height: 600px;
+  object-fit: cover; 
+  
+
 }
 
 
 @media screen and (max-width: 376px) {
 
 
-    #hotelslideshowimg{
-        width: auto;
-        height: 300px;
-    }
+
 
     .hotelslideshowtext{
         font-size: 11px;
     }
+
+    #hotelslideshowimg{
+      width: auto;
+      height: 900px;
+      object-fit: cover;
+      padding-bottom: 20px;
+  }
 
 
 
@@ -274,7 +292,6 @@ img.homeImg {
 
 
 #timos{
-     
     object-fit: cover; 
 }
 
@@ -347,7 +364,7 @@ input[type="reset"]:hover {
     }
 
     form {
-        max-width: 100%;
+        max-width: 90%;
         padding: 10px;
     }
 
@@ -611,7 +628,8 @@ input[type="reset"]:hover {
 
 
     section span {
-      font-size: 40px;
+
+      display: none;
     }
 }
 

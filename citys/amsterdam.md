@@ -54,11 +54,11 @@ hooh:
     linko: https://www.deleurope.com/
   - img: /LocationWithUS/img/amsterdamhtl2.jpg
     headdd: Conservatorium Hotel
-    txt: "In a captivating setting, where vibrant elegance meets cultural richness, discover a location like no other. The city’s crown jewels – the Van Gogh Museum, the Royal Concert Hall, Rijksmuseum, Vondelpark, and Amsterdam’s most indulgent shopping – are just steps away. Adjacent to the cultural epicentre of the Museum Quarter, the regal Conservatorium hotel seamlessly blends the charm of the past with the allure of the present, as it continues to be crowned as the Netherlands’ number one luxury hotel."
+    txt: "In a captivating setting, where vibrant elegance meets cultural richness, discover a location like no other. The city’s crown jewels – the Van Gogh Museum, the Royal Concert Hall, Rijksmuseum, Vondelpark, and Amsterdam’s most indulgent shopping – are just steps away."
     linko: https://www.conservatoriumhotel.com/?utm_medium=referral&utm_source=tripadvisor&utm_campaign=business_advantage_home
   - img: /LocationWithUS/img/amsterdamhtl3.jpg
     headdd:  Sofitel Legend The Grand Amsterdam
-    txt: "Welcome at Sofitel Legend The Grand Amsterdam! Located between two historical canals in the heart of the city, The Grand boasts a rich history. From a 15th-century convent to royal lodgings to Dutch admiralty headquarters to the city hall of Amsterdam. The Grand offers five-star luxury in a unique ‘Amsterdam’ ambiance, furnished with French elegance and grandeur."
+    txt: "Welcome at Sofitel Legend The Grand Amsterdam! Located between two historical canals in the heart of the city, The Grand boasts a rich history. From a 15th-century convent to royal lodgings to Dutch admiralty headquarters to the city hall of Amsterdam."
     linko: https://www.sofitel-legend-thegrand.com/
     
 

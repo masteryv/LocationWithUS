@@ -78,7 +78,7 @@
     {% for image in page.images %}
     
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ image.slideimg }}" alt="{{ image.slidealt }}" class="d-block w-100" style="width: 100%;" >
+      <img src="{{ image.slideimg }}" alt="{{ image.slidealt }}" class="d-block w-100 slideimgcorp" >
       <div class="carousel-caption">
         <h3>{{ image.slidehead }}</h3>
         <p>{{ image.slidetext }}</p>
@@ -156,7 +156,7 @@
     {% for h in page.hooh %}
     
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ h.img }}" alt="{{ h.slidealt }}" id="hotelslideshowimg" class="d-block slidimg w-100">
+      <img src="{{ h.img }}" alt="{{ h.slidealt }}" id="hotelslideshowimg" class="d-block w-100 slidimg">
       <div class="carousel-caption">
         <h3 class="hotelslideshowheader">{{ h.headdd }}</h3>
         <p class="hotelslideshowtext">{{ h.txt }}</p>

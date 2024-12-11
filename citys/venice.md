@@ -9,7 +9,7 @@ images:
   slidehead: Romantic
   slidetext: Venice’s gondola rides, stunning sunsets, and charming canals make it a haven for lovers.
 
-- slideimg: i/LocationWithUS/img/slideVenice2.jpg
+- slideimg: /LocationWithUS/img/slideVenice2.jpg
   slidehead: Historic
   slidetext: With landmarks like Doge’s Palace and centuries-old art, Venice boasts a rich cultural heritage.
 
