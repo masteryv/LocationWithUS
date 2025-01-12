@@ -56,27 +56,22 @@ h5{
 }
 
 
-h1.title{
-    margin: 0 0 0 0;
-}
-
 .title {
     text-transform: uppercase;
-    font-family: verdana;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #0039e6;
-    text-shadow: 1px 1px 1px #013220,
-        1px 2px 1px #013220,
-        1px 3px 1px #013220,
-        1px 4px 1px #013220,
- 
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 
+    -2px -2px 0 white, /* Top left shadow */
+     2px -2px 0 white, /* Top right shadow */
+    -2px  2px 0 white, /* Bottom left shadow */
+     2px  2px 0 white; /* Bottom right shadow */
+   padding: 15px;
+   margin-bottom: 30px;
 
-
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
-    padding-bottom: 50px;
+    
     
 }
 
@@ -229,8 +224,8 @@ article {
 
 .textinarticle{
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #434343, #000000); 
+    background: linear-gradient(to top, #434343, #000000); 
 
     font-family: Courier, monospace;
     border-radius: 10px;
@@ -243,6 +238,11 @@ article {
     color: white;
 }
 
+.hotelutxt{
+  font-style: italic;
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+}
 
 #hotelslideshowimg{
     width: auto;
@@ -563,7 +563,7 @@ input[type="reset"]:hover {
 
 
 
-   /*"WhereAreWe text effect"*/
+   /*"WhereAreWe text effect"
    section.homeMain{
 
     display: flex;
@@ -571,10 +571,6 @@ input[type="reset"]:hover {
     align-items: center;
     margin-bottom: 40px;
   }
-
-
-
-
 
    
    section span {
@@ -632,6 +628,9 @@ input[type="reset"]:hover {
       display: none;
     }
 }
+   
+   */
+   
 
 
   /* 
